@@ -1,0 +1,153 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+   
+}
+.link-page{
+    padding-right: 10px;
+}
+.link-page a{
+    margin-left: 10px;
+    color: chartreuse;
+    text-decoration: none ;
+}
+ .link-page a:hover {
+    color: rgb(211, 5, 5);
+    font-size: 20px;
+    
+}
+.container{
+    border: rebeccapurple;
+    margin: 20px;
+   
+}
+.top-1{
+    display: flex;
+  margin: 20px;
+    padding-left: 20px;
+    border: 2px solid;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+
+}
+.intro-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+ 
+    justify-content: right;
+    margin-left:150px;
+}
+.intro-img img{
+ display: flex;
+ justify-content: right
+
+
+}
+
+hr{
+    margin: 20px;
+   
+}
+/*----------
+      logo section
+         --------------*/
+    .icon{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 10px;
+       align-items: center;
+       justify-content: center;
+        width: 870px;
+        background-color: #3a06f7;
+    }
+    .logo{
+        margin: 20pzx;
+    }
+    .icon img{
+        display: flex;
+        align-items: center;
+    }
+        .top-1 .icon img{
+
+       width: 20px;
+      
+   ;
+       
+    }
+
+    /*------------------
+                    popular section-
+        
+                    -----------------*/
+        .items{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }            
+       .item{
+           border: 3px solid rgb(245, 10, 88);
+           border-radius: 10px 10px 8px 8px;
+        margin: 5px;
+        padding: 15px;
+     
+       } 
+       .item img{
+align-items: center;
+margin: 10px;
+        
+       }    
+
+/*--------
+  ratting star
+  ------------*/
+    .rating {
+        font-size: 24px;
+        color: gold;
+      }
+      
+      .star {
+        display: inline-block;
+        width: 10px;
+        height: 20px;
+        margin-right: 5px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        cursor: pointer;
+      }
+      
+      .star:hover:before,
+      .star:hover ~ .star:before {
+        content: "\2605";
+        position: absolute;
+        color: rgb(119, 0, 255);
+      }
+      .rating-value{
+        color: black;
+        margin-left: 10px;
+      }
+       /*-----end star------*/
+       .item-details{
+        margin-top:10px;
+        font-size: 18px;
+        font-weight: 700;
+       }
+
+       .discript{
+        background-color: #3a06f7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .discript a{
+        font-size: 30px;
+        margin-left: 10px;
+       }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+
+    
+    <style>
+        fieldset{
+            background-color: rgb(238, 8, 226);
+        }
+        legend{
+            color: rgb(0, 12, 1);
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+         <li><a href="home.html">Home</a></li>
+         <li><a href="audio-video.html">Media</a></li>
+         <li><a href="table.html">Table</a></li>
+         <li><a href="semantic.html">Semantic</a></li>
+         <li>
+            <a href="form-fillup.html">Form-Fillup</a>
+           </li>
+         <li><a href="about.html">About-Us</a></li>
+        </ul>
+        </nav>
+
+        <!--
+            Form section
+        -->
+    <h1>Wel to my web site</h1>
+  </header>
+  <!-- 
+       log in section
+                        -->
+
+    <h1>Jamal Food Corner</h1>
+    <form action="">
+       <p> Name:<input type="text" name="name" placeholder="Enter Your Name" id="" required></p>
+
+       <p> Email:<input type="text" name="email" placeholder="Enter Your Email" id="" required></p>
+
+       <p> Mobile: <input type="text" name="number" placeholder="Enter Your mobile number" id="" required></p> 
+
+
+<!--item section-->
+
+       <fieldset>
+        <legend>select your item</legend>
+        <p>
+            <label for="biskot">
+                <input type="radio" name="item" id="biskot">
+                biskot
+            </label>
+        </p>
+        
+        <p>
+            <label for="water">
+                <input type="radio" name="item" id="water">water
+            </label>
+        </p>
+       
+        <p>
+            <label for="choklet">
+                <input type="radio" name="item" id="choklet">choklet
+            </label>
+        </p>
+        
+
+     </fieldset>
+    
+    
+     <fieldset>
+        <legend>select your biskot</legend>
+        <p>
+            <label for="pinaple">
+                <input type="checkbox" name="biskot" id="pinaple">pinaple
+            </label>
+        </p>
+       
+        <p>
+            <label for="toast biskot">
+                <input type="checkbox" name="biskot" id="toast biskot">toast biskot
+            </label>
+        </p>
+       
+        <p>
+            <label for="fit">
+                <input type="checkbox" name="biskot" id="fit">fit
+            </label>
+        </p>
+       
+        <p>
+            special instruction
+            <br>
+            <textarea name="intruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        
+         <button type="submit">submit</button>
+         <button type="reset">reset</button>
+    </fieldset>   
+
+
+</form>
+    
+</body>
+</html>

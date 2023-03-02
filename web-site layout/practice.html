@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 10vw;
+        }
+        body{
+            max-width: 850px;
+            margin: 0 auto;
+            border: 1px solid purple
+        }
+        .tiger img{
+            width: 100%;
+        }
+        .content-tow{
+        display: flex;
+      }
+      
+      
+      .split img{
+        width: 100%;
+      }
+      @media screen and (max-width: 576px) {
+        .content-tow{
+            flex-direction: column-reverse;}
+            .content-tow .split{
+        width: 100%;}  
+      }
+
+    </style>
+</head>
+<body>
+    <h1>My Respnsive Web Sit</h1>
+    <section class="tiger">
+        <h3>Tiger</h3>
+        <img src="img/tiger.jpg" alt="">
+    </section>
+
+    <section >
+        <h3>Two-Content</h3>
+        <div class="content-tow">
+      <div class="split"> <img src="img/food.jpg" alt=""> 
+     
+        <div class="split"></div>  <img src="img/tiger.jpg" alt=""></div>
+    </div> </section>
+</body>
+</html>
