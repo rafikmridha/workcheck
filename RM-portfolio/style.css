@@ -1,0 +1,16 @@
+body{font-family:  'Poppins', sans-serif;background-image: url(IMG20190414174838-01.jpeg);}
+.flexible-container{display: flex;
+margin-bottom: 150px;}
+.half-width{width: 50%; padding: 2%;}
+.half-width img{width: 80%;
+padding: 20px 0px 20px 40px;}
+h2{color: red;}
+.link-button{text-decoration: dashed;
+background-image: linear-gradient(red,orange);
+padding: 10px 40px;border-radius: 10em 15em 20em;}
+.banner-1{background-image: url(top-banner.png);
+background-repeat: no-repeat;
+}
+.dream-big{background-image: url(my-bg2.png);
+background-repeat: no-repeat;
+background-position: right;}
