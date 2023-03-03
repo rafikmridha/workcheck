@@ -217,7 +217,7 @@ nav li{
     align-items: center;
     flex-direction: column;
 }
-    }
+  
     .main{
         width:100%;
     }
@@ -266,7 +266,7 @@ nav li{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-   
+}
     /*----------
            tablet device
              --------------*/
