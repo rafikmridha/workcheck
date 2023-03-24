@@ -30,3 +30,5 @@ var elements = playersMoney[(4)];
 console.log(elements);
 console.log(playersName, playersMoney.length);
 console.log(playersMoney, playersName.length);
+playersMoney[(0)] = 200;
+console.log(playersMoney)
