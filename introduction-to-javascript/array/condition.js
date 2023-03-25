@@ -23,3 +23,21 @@ if (isGraduated == true && sallary >= 3000 && car >= 1) { console.log('ami biye 
 else {
     console.log('biye korte deri ache')
 }
+
+var isGraduated = true;
+var sallary = 30000;
+var car = 1;
+
+if (isGraduated == true || sallary >= 3000)
+{
+    console.log('biya kori')
+}
+else {
+    console.log('prem kori')
+}
+if (isGraduated === false || (sallary >= 3000 && car > 1)) {
+    console.log('jomiye prem kori')
+}
+else {
+    console.log('prem o korte parbona')
+}
